@@ -17,6 +17,7 @@ services:
     restart: always
     volumes:
       - ./volume/:/opt/jboss/keycloak/standalone/data/
+    command: start-dev
 
 networks:
   default:
